@@ -7,7 +7,7 @@ p welcome 18 px #E5E7EB
 logo 24px #F9FAF8
 
 button #3882F6
-info-text 36px 900 #1F2937
+h2 36px 900 #1F2937
 
 quote bg #E5E7EB
 p quote 36px 300 italic #1F2937
@@ -21,8 +21,52 @@ p quote 36px 300 italic #1F2937
     list-style-type: none;
 }
 
+footer, .chunk1 {
+    background-color: #1F2937;
+}
+
+ul, .sub-text {
+    color: #c7c9ce;
+}
+
+.logo, .thor {
+    font-weight: 900;
+}
+
+button, .sub-chunk4 {
+    background-color: #3882F6;
+}
+
+button, .thor {
+    font-size: 18px;
+}
+
+.chunk2, .chunk4 {
+    background-color: #F9FAF8;
+}
+
+button, .sub-chunk4 {
+    border-radius: 5px;
+}
+
+.text-color {
+    color: #F9FAF8;
+}
+
+h3, .logo {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+}
+
 .chunk1 {
-    background-color: bisque;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,30 +95,28 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
 }
 
 .welcome-form {
     flex-basis: 50%;
-    
 }
 
 .welcome-text {
-    margin: 8px 0;
+    margin: 8px 0 12px;
 }
 
 .placeholder-img {
-    background-color: aquamarine;
-    height: 130px;
-    width: 300px;
+    height: 20vw;
+    width: 45vw;
+    background-color: rgb(101, 115, 121);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
 .chunk2 {
     padding: 32px 0 72px;
-    background-color: rgb(165, 165, 114);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,12 +127,16 @@ ul {
     width: 70%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .img {
-    background-color: aqua;
     width: 150px;
     height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 8px;
 }
 
 .info-text {
@@ -99,7 +145,7 @@ ul {
 }
 
 .chunk3 {
-    background-color: aquamarine;
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,9 +154,16 @@ ul {
 .sub-chunk3 {
     padding: 70px 0;
     width: 70%;
+    color: #1F2937;
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .thor {
@@ -118,16 +171,14 @@ ul {
 }
 
 .chunk4 {
-    padding: 52px 0;
-    background-color: gray;
+    padding: 72px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sub-chunk4 {
-    padding: 32px 0;
-    background-color: blue;
+    padding: 32px 64px;
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -141,13 +192,17 @@ ul {
 }
 
 button {
-    padding: 6px 22px;
+    padding: 6px 28px;
+    border: none;
     flex-shrink: 0;
+}
+
+.button2 {
+    border: 2px solid #F9FAF8;
 }
 
 footer {
     padding: 24px 0;
-    background-color: rgb(47, 47, 49);
     color: aliceblue;
     display: flex;
     justify-content: center;
