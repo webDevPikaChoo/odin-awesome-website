@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+/* 
+dark bg #1F2937
+h1 48px 900 #F9FAF8
+p welcome 18 px #E5E7EB
+logo 24px #F9FAF8
+
+button #3882F6
+info-text 36px 900 #1F2937
+
+quote bg #E5E7EB
+p quote 36px 300 italic #1F2937
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.chunk1 {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-chunk1 {
+    padding: 12px 0 62px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 52px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-form {
+    flex-basis: 50%;
+    
+}
+
+.welcome-text {
+    margin: 8px 0;
+}
+
+.placeholder-img {
+    background-color: aquamarine;
+    height: 130px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.chunk2 {
+    padding: 32px 0 72px;
+    background-color: rgb(165, 165, 114);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.info-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+}
+
+.info-text {
+    text-align: center;
+    width: 150px;
+}
+
+.chunk3 {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-chunk3 {
+    padding: 70px 0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.thor {
+    align-self: flex-end;
+}
+
+.chunk4 {
+    padding: 52px 0;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-chunk4 {
+    padding: 32px 0;
+    background-color: blue;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 6px 22px;
+    flex-shrink: 0;
+}
+
+footer {
+    padding: 24px 0;
+    background-color: rgb(47, 47, 49);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
